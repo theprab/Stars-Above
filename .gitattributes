@@ -1,5 +1,4 @@
 ## Unity ##
-
 *.cs diff=csharp text
 *.cginc text
 *.shader text
@@ -48,6 +47,7 @@
 *text=auto
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.exe filter=lfs diff=lfs merge=lfs -text
+myfolder/**/* filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.csproj filter=lfs diff=lfs merge=lfs -text
 *.sln filter=lfs diff=lfs merge=lfs -text
